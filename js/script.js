@@ -8,8 +8,7 @@ const fechaActual = 2021; // Ingresando valor constante "2021"
 
 let edad = fechaActual - nacimiento; // Realizando la operación entre variables para mostrar el resultado en "alert()"
 
-if (hora <= 12) { saludo = "Buenos dias" 
-}
+if (hora < 12) { saludo = "Buenos dias" }
 else saludo = "Buenas tardes";
 
 /* Lo que se muestra para el usuario */
